@@ -37,10 +37,31 @@
                     height: 120px;
                     border-radius: 50%;
                 }
+                .new-user-tip {
+                    position: absolute;
+                    bottom: -10px;
+                    left: 50%;
+                    transform: translate(-50%, 10px);
+                    width: 70px;
+                    background: rgba(0, 0, 0, 0.8);
+                    color: #fff;
+                    padding: 10px;
+                    text-align: center;
+                    border-radius: 2px;
+                    opacity: 0;
+                    cursor: pointer;
+                    transition: all 0.3s ease-in-out;
+                }
+                &:hover {
+                    .new-user-tip {
+                        opacity: 1;
+                        transform: translate(-50%, 0);
+                    }
+                }
             }
         }
         .container-body {
-            padding: 80px 0 40px;
+            padding: 80px 15px 40px;
             text-align: center;
             .user-info-content {
                 margin-bottom: 30px;
@@ -67,6 +88,9 @@
                     background-image: url('/../image/card_icons.png');
                     background-repeat: no-repeat;
                     background-size: 385px;
+                    margin-bottom: 20px;
+                    transition: all 0.5s ease-in-out;
+                    cursor: pointer;
                     &:not(:last-child) {
                         margin-right: 20px;
                     }
