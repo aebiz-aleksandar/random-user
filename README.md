@@ -3,7 +3,7 @@
 ## Credits Thanks [Random User](https://randomuser.me/)
 
 ## Design preview and function of Random User APP
-![Random User Design Image](./design-image.jpg)
+![Random User Design Image](./design-image.png)
 
 ## About APP
 
