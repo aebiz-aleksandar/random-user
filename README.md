@@ -15,4 +15,4 @@ Random user app represent app based on a random display of users and their infor
 - SCSS
 
 ## LIVE
-[https://aebiz-random-user.netlify.app](https://randomuser.me/)
+[https://aebiz-random-user.netlify.app](https://aebiz-random-user.netlify.app)
