@@ -14,6 +14,6 @@ Random user app represent app based on a random display of users and their infor
 - HTML
 - SCSS
 
-##LIVE
+## LIVE
 https://aebiz-random-user.netlify.app
 [https://aebiz-random-user.netlify.app](https://randomuser.me/)
